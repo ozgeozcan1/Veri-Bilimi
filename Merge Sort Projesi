@@ -1,0 +1,24 @@
+Merge Sort Projesi
+
+[16,21,11,8,12,22]
+
+1) Dizinin sort türüne göre aşamaları;
+
+ n0:                         [16,21,11,8,12,22]
+ 
+ n1:        [16,21,11]                                  [8,12,22]                             n1: İlk aşamada diziyi ikiye böldük.
+ 
+ n2:   [16]            [21,11]                    [8]              [12,22]                    n2: İkinci aşamada yeniden diziyi böldük.
+
+ n3:   [16]          [21]    [11]                 [8]            [12]    [22]                 n3: Üçüncü aşamada yeniden diziyi parçaladık.
+
+ n4:   [16]             [21,11]                   [8]              [12,22]                    n4: Dördüncü aşamada parçalanan dizilerden ikili grup olan kısmı sıraladık.
+
+ n5:         [11,16,21]                                      [8,12,22]                        n5: Beşinci aşamada sıraladığımız kısma tekli kalan sayıyı da sıraya ekledik.
+
+ n6:                       [8,11,12,16,21,22]                                                 n6: Altıncı aşamada hepsini sıralı bie şekilde yeniden birleştirdik.
+
+
+2) Big-O gösterimi;
+
+O(nlogn)
